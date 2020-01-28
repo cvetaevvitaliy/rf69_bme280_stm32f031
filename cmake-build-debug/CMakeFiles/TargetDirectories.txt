@@ -1,0 +1,4 @@
+/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/UPLOAD.dir
+/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/f031.elf.dir
