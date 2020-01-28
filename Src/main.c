@@ -43,7 +43,8 @@
 /* USER CODE BEGIN Includes */
 #include "bmp280.h"
 #include <RFM69.h>
-#define ENCRYPTKEY	"sampleEncryptKey"
+
+#define ENCRYPTKEY  "sampleEncryptKey"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -61,24 +62,23 @@ SPI_HandleTypeDef hspi1;
 RTC_AlarmTypeDef setAlarm;
 BMP280_HandleTypedef bmp280;
 
-float pressure, temperature, humidity, pas;
+float pressure ,temperature ,humidity ,pas;
 uint16_t size;
 uint8_t Data[256];
 
 uint32_t time = 0;
 
-typedef struct
-{
-	uint8_t command;
-	uint8_t id;
-	uint8_t status;
-	uint16_t remote_command;
-	int16_t data_power;
-	int16_t data_1;
-	int16_t data_2;
-	int16_t data_3;
-	int16_t data_4;
-}TData;
+typedef struct {
+  uint8_t command;
+  uint8_t id;
+  uint8_t status;
+  uint16_t remote_command;
+  int16_t data_power;
+  int16_t data_1;
+  int16_t data_2;
+  int16_t data_3;
+  int16_t data_4;
+} TData;
 
 TData theData;
 
@@ -86,7 +86,7 @@ TData theData;
 uint16_t counter = 0;
 uint32_t voltage = 0;
 uint32_t adc_raw = 0;
-double Vbat=0;
+double Vbat = 0;
 
 
 
@@ -95,14 +95,21 @@ double Vbat=0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
-void SystemClock_Config(void);
-static void MX_GPIO_Init(void);
-static void MX_DMA_Init(void);
-static void MX_I2C1_Init(void);
-static void MX_SPI1_Init(void);
-static void MX_RTC_Init(void);
-static void MX_ADC_Init(void);
-static void MX_NVIC_Init(void);
+void SystemClock_Config (void);
+
+static void MX_GPIO_Init (void);
+
+static void MX_DMA_Init (void);
+
+static void MX_I2C1_Init (void);
+
+static void MX_SPI1_Init (void);
+
+static void MX_RTC_Init (void);
+
+static void MX_ADC_Init (void);
+
+static void MX_NVIC_Init (void);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
@@ -110,17 +117,15 @@ static void MX_NVIC_Init(void);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
-void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc2)
-{
-  if (hadc2->Instance == ADC1)
+void HAL_ADC_ConvCpltCallback (ADC_HandleTypeDef *hadc2) {
+  if( hadc2->Instance == ADC1)
     voltage = adc_raw;
-  voltage = HAL_ADC_GetValue(&hadc);
+  voltage = HAL_ADC_GetValue (&hadc);
 
 }
 
 
-
-void Set_Alarm(uint8_t sec){
+void Set_Alarm (uint8_t sec) {
   /**Enable the Alarm A
 */
   setAlarm.AlarmTime.Hours = 0x0;
@@ -134,9 +139,8 @@ void Set_Alarm(uint8_t sec){
   setAlarm.AlarmDateWeekDaySel = RTC_ALARMDATEWEEKDAYSEL_DATE;
   setAlarm.AlarmDateWeekDay = 0x1;
   setAlarm.Alarm = RTC_ALARM_A;
-  if (HAL_RTC_SetAlarm_IT(&hrtc, &setAlarm, RTC_FORMAT_BCD) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_RTC_SetAlarm_IT (&hrtc ,&setAlarm ,RTC_FORMAT_BCD) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
 
@@ -150,99 +154,97 @@ void Set_Alarm(uint8_t sec){
   *
   * @retval None
   */
-int main(void)
-{
+int main (void) {
   /* USER CODE BEGIN 1 */
-	PWR->CSR   |= PWR_CSR_EWUP1;
+  PWR->CSR |= PWR_CSR_EWUP1;
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+  HAL_Init ();
 
   /* USER CODE BEGIN Init */
 
   /* USER CODE END Init */
 
   /* Configure the system clock */
-  SystemClock_Config();
+  SystemClock_Config ();
 
   /* USER CODE BEGIN SysInit */
 
   /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  MX_DMA_Init();
-  MX_I2C1_Init();
-  MX_SPI1_Init();
-  MX_RTC_Init();
-  MX_ADC_Init();
+  MX_GPIO_Init ();
+  MX_DMA_Init ();
+  MX_I2C1_Init ();
+  MX_SPI1_Init ();
+  MX_RTC_Init ();
+  MX_ADC_Init ();
 
   /* Initialize interrupts */
-  MX_NVIC_Init();
+  MX_NVIC_Init ();
   /* USER CODE BEGIN 2 */
-	bmp280.i2c = &hi2c1;
-	bmp280_init_default_params(&bmp280.params);
-	bmp280.addr = BMP280_I2C_ADDRESS_1;
-	bmp280_init(&bmp280, &bmp280.params);
+  bmp280.i2c = &hi2c1;
+  bmp280_init_default_params (&bmp280.params);
+  bmp280.addr = BMP280_I2C_ADDRESS_1;
+  bmp280_init (&bmp280 ,&bmp280.params);
 
-	bool bme280p = bmp280.id == BME280_CHIP_ID; 
-	RFM69_initialize(RF69_433MHZ,55,100);
-  RFM69_encrypt(ENCRYPTKEY);
-	RFM69_setPowerLevel(31);
-  RFM69_promiscuous(true);
-  RFM69_sleep();
-	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,GPIO_PIN_SET);
-	HAL_Delay(25);
-	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,GPIO_PIN_RESET);
-	HAL_ADCEx_Calibration_Start(&hadc);
-	HAL_ADC_Start_DMA(&hadc,&adc_raw,1);
-	time = HAL_GetTick ();
-	theData.status = HAL_RTCEx_BKUPRead (&hrtc,1);
+  bool bme280p = bmp280.id == BME280_CHIP_ID;
+  RFM69_initialize (RF69_433MHZ ,55 ,100);
+  RFM69_encrypt (ENCRYPTKEY);
+  RFM69_setPowerLevel (21);
+  RFM69_promiscuous (true);
+  RFM69_sleep ();
+  HAL_GPIO_WritePin (GPIOA ,GPIO_PIN_3 ,GPIO_PIN_SET);
+  HAL_Delay (25);
+  HAL_GPIO_WritePin (GPIOA ,GPIO_PIN_3 ,GPIO_PIN_RESET);
+  HAL_ADCEx_Calibration_Start (&hadc);
+  HAL_ADC_Start_DMA (&hadc ,&adc_raw ,1);
+  time = HAL_GetTick ();
+  theData.status = HAL_RTCEx_BKUPRead (&hrtc ,1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
+  while ( 1 ) {
 
-    if (HAL_GetTick () - time > 100) {
-      Vbat = (voltage / 4095.0 * 3.33) * 8.0 ;
+    if( HAL_GetTick () - time > 100 ) {
+      Vbat = ( voltage / 4095.0 * 3.33 ) * 8.0;
       HAL_ADC_Start_DMA (&hadc ,&adc_raw ,1);
       time = HAL_GetTick ();
-      bmp280_read_float(&bmp280,&temperature,&pressure,&humidity);
-      counter++;
+      bmp280_read_float (&bmp280 ,&temperature ,&pressure ,&humidity);
+      counter ++;
     }
 
-    if (counter > 10){
-      theData.status++;
-      HAL_RTCEx_BKUPWrite(&hrtc,1,(uint32_t)theData.status);
+    if( counter > 10 ) {
+      theData.status ++;
+      HAL_RTCEx_BKUPWrite (&hrtc ,1 ,( uint32_t ) theData.status);
       counter = 0;
-      pas=pressure*0.00750063755419211;
-      theData.command=3;
-      theData.data_1=temperature;
-      theData.data_2=pas;
-      theData.data_3=humidity;
-      theData.id=6;
-      theData.data_power=Vbat*100;
-      bmp280_sleep(&bmp280.params);
+      pas = pressure * 0.00750063755419211;
+      theData.command = 3;
+      theData.data_1 = temperature;
+      theData.data_2 = pas;
+      theData.data_3 = humidity;
+      theData.id = 6;
+      theData.data_power = Vbat * 100;
+      bmp280_sleep (&bmp280.params);
       Set_Alarm (0x25);
-      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,GPIO_PIN_SET);
-      HAL_Delay(25);
-      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,GPIO_PIN_RESET);
-      RFM69_send(100, (const void*)(&theData), sizeof(theData),false);
-      RFM69_sleep();
-      PWR->CSR   |= PWR_CSR_EWUP1;
-      PWR->CSR   |= PWR_CSR_WUF;
-      PWR->CR    |= PWR_CR_CWUF;
+      HAL_GPIO_WritePin (GPIOA ,GPIO_PIN_3 ,GPIO_PIN_SET);
+      HAL_Delay (25);
+      HAL_GPIO_WritePin (GPIOA ,GPIO_PIN_3 ,GPIO_PIN_RESET);
+      RFM69_send (100 ,( const void * ) ( &theData ) ,sizeof (theData) ,false);
+      RFM69_sleep ();
+      PWR->CSR |= PWR_CSR_EWUP1;
+      PWR->CSR |= PWR_CSR_WUF;
+      PWR->CR |= PWR_CR_CWUF;
       PWR->CR = PWR_CR_PDDS | PWR_CR_CWUF;
-     // DBGMCU->CR |= ( DBGMCU_CR_DBG_STOP | DBGMCU_CR_DBG_STANDBY);
-      HAL_PWR_EnterSTANDBYMode();
+      // DBGMCU->CR |= ( DBGMCU_CR_DBG_STOP | DBGMCU_CR_DBG_STANDBY);
+      HAL_PWR_EnterSTANDBYMode ();
     }
 
-  /* USER CODE END WHILE */
+    /* USER CODE END WHILE */
 
-  /* USER CODE BEGIN 3 */
+    /* USER CODE BEGIN 3 */
 
   }
   /* USER CODE END 3 */
@@ -253,80 +255,74 @@ int main(void)
   * @brief System Clock Configuration
   * @retval None
   */
-void SystemClock_Config(void)
-{
+void SystemClock_Config (void) {
 
   RCC_OscInitTypeDef RCC_OscInitStruct;
   RCC_ClkInitTypeDef RCC_ClkInitStruct;
   RCC_PeriphCLKInitTypeDef PeriphClkInit;
 
-    /**Initializes the CPU, AHB and APB busses clocks 
-    */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_HSI14
-                              |RCC_OSCILLATORTYPE_LSI;
+  /**Initializes the CPU, AHB and APB busses clocks
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI | RCC_OSCILLATORTYPE_HSI14
+                                     | RCC_OSCILLATORTYPE_LSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSI14State = RCC_HSI14_ON;
   RCC_OscInitStruct.HSICalibrationValue = 16;
   RCC_OscInitStruct.HSI14CalibrationValue = 16;
   RCC_OscInitStruct.LSIState = RCC_LSI_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
-  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_RCC_OscConfig (&RCC_OscInitStruct) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
-    /**Initializes the CPU, AHB and APB busses clocks 
-    */
-  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
-                              |RCC_CLOCKTYPE_PCLK1;
+  /**Initializes the CPU, AHB and APB busses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_SYSCLK
+                                | RCC_CLOCKTYPE_PCLK1;
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_RCC_ClockConfig (&RCC_ClkInitStruct ,FLASH_LATENCY_0) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_I2C1|RCC_PERIPHCLK_RTC;
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_I2C1 | RCC_PERIPHCLK_RTC;
   PeriphClkInit.I2c1ClockSelection = RCC_I2C1CLKSOURCE_HSI;
   PeriphClkInit.RTCClockSelection = RCC_RTCCLKSOURCE_LSI;
-  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_RCCEx_PeriphCLKConfig (&PeriphClkInit) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
-    /**Configure the Systick interrupt time 
-    */
-  HAL_SYSTICK_Config(HAL_RCC_GetHCLKFreq()/1000);
+  /**Configure the Systick interrupt time
+  */
+  HAL_SYSTICK_Config (HAL_RCC_GetHCLKFreq () / 1000);
 
-    /**Configure the Systick 
-    */
-  HAL_SYSTICK_CLKSourceConfig(SYSTICK_CLKSOURCE_HCLK);
+  /**Configure the Systick
+  */
+  HAL_SYSTICK_CLKSourceConfig (SYSTICK_CLKSOURCE_HCLK);
 
   /* SysTick_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(SysTick_IRQn, 0, 0);
+  HAL_NVIC_SetPriority (SysTick_IRQn ,0 ,0);
 }
 
 /**
   * @brief NVIC Configuration.
   * @retval None
   */
-static void MX_NVIC_Init(void)
-{
+static void MX_NVIC_Init (void) {
   /* EXTI0_1_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(EXTI0_1_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(EXTI0_1_IRQn);
+  HAL_NVIC_SetPriority (EXTI0_1_IRQn ,0 ,0);
+  HAL_NVIC_EnableIRQ (EXTI0_1_IRQn);
 }
 
 /* ADC init function */
-static void MX_ADC_Init(void)
-{
+static void MX_ADC_Init (void) {
 
   ADC_ChannelConfTypeDef sConfig;
 
-    /**Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion) 
-    */
+  /**Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion)
+  */
   hadc.Instance = ADC1;
   hadc.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV1;
   hadc.Init.Resolution = ADC_RESOLUTION_12B;
@@ -341,26 +337,23 @@ static void MX_ADC_Init(void)
   hadc.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc.Init.DMAContinuousRequests = DISABLE;
   hadc.Init.Overrun = ADC_OVR_DATA_PRESERVED;
-  if (HAL_ADC_Init(&hadc) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_ADC_Init (&hadc) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
-    /**Configure for the selected ADC regular channel to be converted. 
-    */
+  /**Configure for the selected ADC regular channel to be converted.
+  */
   sConfig.Channel = ADC_CHANNEL_VBAT;
   sConfig.Rank = ADC_RANK_CHANNEL_NUMBER;
   sConfig.SamplingTime = ADC_SAMPLETIME_7CYCLES_5;
-  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_ADC_ConfigChannel (&hadc ,&sConfig) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
 }
 
 /* I2C1 init function */
-static void MX_I2C1_Init(void)
-{
+static void MX_I2C1_Init (void) {
 
   hi2c1.Instance = I2C1;
   hi2c1.Init.Timing = 0x2000090E;
@@ -371,30 +364,26 @@ static void MX_I2C1_Init(void)
   hi2c1.Init.OwnAddress2Masks = I2C_OA2_NOMASK;
   hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
   hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
-  if (HAL_I2C_Init(&hi2c1) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_I2C_Init (&hi2c1) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
-    /**Configure Analogue filter 
-    */
-  if (HAL_I2CEx_ConfigAnalogFilter(&hi2c1, I2C_ANALOGFILTER_ENABLE) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  /**Configure Analogue filter
+  */
+  if( HAL_I2CEx_ConfigAnalogFilter (&hi2c1 ,I2C_ANALOGFILTER_ENABLE) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
-    /**Configure Digital filter 
-    */
-  if (HAL_I2CEx_ConfigDigitalFilter(&hi2c1, 0) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  /**Configure Digital filter
+  */
+  if( HAL_I2CEx_ConfigDigitalFilter (&hi2c1 ,0) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
 }
 
 /* RTC init function */
-static void MX_RTC_Init(void)
-{
+static void MX_RTC_Init (void) {
 
   /* USER CODE BEGIN RTC_Init 0 */
 
@@ -408,8 +397,8 @@ static void MX_RTC_Init(void)
 
   /* USER CODE END RTC_Init 1 */
 
-    /**Initialize RTC Only 
-    */
+  /**Initialize RTC Only
+  */
   hrtc.Instance = RTC;
   hrtc.Init.HourFormat = RTC_HOURFORMAT_24;
   hrtc.Init.AsynchPrediv = 127;
@@ -417,24 +406,22 @@ static void MX_RTC_Init(void)
   hrtc.Init.OutPut = RTC_OUTPUT_DISABLE;
   hrtc.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
   hrtc.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
-  if (HAL_RTC_Init(&hrtc) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_RTC_Init (&hrtc) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
   /* USER CODE BEGIN RTC_Init 2 */
 
   /* USER CODE END RTC_Init 2 */
 
-    /**Initialize RTC and set the Time and Date 
-    */
+  /**Initialize RTC and set the Time and Date
+  */
   sTime.Hours = 0x0;
   sTime.Minutes = 0x0;
   sTime.Seconds = 0x0;
   sTime.DayLightSaving = RTC_DAYLIGHTSAVING_NONE;
   sTime.StoreOperation = RTC_STOREOPERATION_RESET;
-  if (HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BCD) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_RTC_SetTime (&hrtc ,&sTime ,RTC_FORMAT_BCD) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
   /* USER CODE BEGIN RTC_Init 3 */
 
@@ -445,16 +432,15 @@ static void MX_RTC_Init(void)
   sDate.Date = 0x1;
   sDate.Year = 0x0;
 
-  if (HAL_RTC_SetDate(&hrtc, &sDate, RTC_FORMAT_BCD) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_RTC_SetDate (&hrtc ,&sDate ,RTC_FORMAT_BCD) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
   /* USER CODE BEGIN RTC_Init 4 */
 
   /* USER CODE END RTC_Init 4 */
 
-    /**Enable the Alarm A 
-    */
+  /**Enable the Alarm A
+  */
   sAlarm.AlarmTime.Hours = 0x0;
   sAlarm.AlarmTime.Minutes = 0x0;
   sAlarm.AlarmTime.Seconds = 0x30;
@@ -466,9 +452,8 @@ static void MX_RTC_Init(void)
   sAlarm.AlarmDateWeekDaySel = RTC_ALARMDATEWEEKDAYSEL_DATE;
   sAlarm.AlarmDateWeekDay = 0x1;
   sAlarm.Alarm = RTC_ALARM_A;
-  if (HAL_RTC_SetAlarm_IT(&hrtc, &sAlarm, RTC_FORMAT_BCD) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_RTC_SetAlarm_IT (&hrtc ,&sAlarm ,RTC_FORMAT_BCD) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
   /* USER CODE BEGIN RTC_Init 5 */
 
@@ -477,8 +462,7 @@ static void MX_RTC_Init(void)
 }
 
 /* SPI1 init function */
-static void MX_SPI1_Init(void)
-{
+static void MX_SPI1_Init (void) {
 
   /* SPI1 parameter configuration*/
   hspi1.Instance = SPI1;
@@ -495,9 +479,8 @@ static void MX_SPI1_Init(void)
   hspi1.Init.CRCPolynomial = 7;
   hspi1.Init.CRCLength = SPI_CRC_LENGTH_DATASIZE;
   hspi1.Init.NSSPMode = SPI_NSS_PULSE_ENABLE;
-  if (HAL_SPI_Init(&hspi1) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
+  if( HAL_SPI_Init (&hspi1) != HAL_OK ) {
+    _Error_Handler (__FILE__ ,__LINE__);
   }
 
 }
@@ -505,15 +488,14 @@ static void MX_SPI1_Init(void)
 /** 
   * Enable DMA controller clock
   */
-static void MX_DMA_Init(void) 
-{
+static void MX_DMA_Init (void) {
   /* DMA controller clock enable */
   __HAL_RCC_DMA1_CLK_ENABLE();
 
   /* DMA interrupt init */
   /* DMA1_Channel1_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(DMA1_Channel1_IRQn);
+  HAL_NVIC_SetPriority (DMA1_Channel1_IRQn ,0 ,0);
+  HAL_NVIC_EnableIRQ (DMA1_Channel1_IRQn);
 
 }
 
@@ -524,8 +506,7 @@ static void MX_DMA_Init(void)
         * EVENT_OUT
         * EXTI
 */
-static void MX_GPIO_Init(void)
-{
+static void MX_GPIO_Init (void) {
 
   GPIO_InitTypeDef GPIO_InitStruct;
 
@@ -533,26 +514,26 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3|GPIO_PIN_4, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin (GPIOA ,GPIO_PIN_3 | GPIO_PIN_4 ,GPIO_PIN_RESET);
 
   /*Configure GPIO pin : PA0 */
   GPIO_InitStruct.Pin = GPIO_PIN_0;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init (GPIOA ,&GPIO_InitStruct);
 
   /*Configure GPIO pin : PA2 */
   GPIO_InitStruct.Pin = GPIO_PIN_2;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init (GPIOA ,&GPIO_InitStruct);
 
   /*Configure GPIO pins : PA3 PA4 */
-  GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_4;
+  GPIO_InitStruct.Pin = GPIO_PIN_3 | GPIO_PIN_4;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init (GPIOA ,&GPIO_InitStruct);
 
 }
 
@@ -566,12 +547,10 @@ static void MX_GPIO_Init(void)
   * @param  line: The line in file as a number.
   * @retval None
   */
-void _Error_Handler(char *file, int line)
-{
+void _Error_Handler (char *file ,int line) {
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
-  while(1)
-  {
+  while ( 1 ) {
   }
   /* USER CODE END Error_Handler_Debug */
 }

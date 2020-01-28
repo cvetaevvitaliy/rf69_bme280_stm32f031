@@ -1,4 +1,0 @@
-/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/UPLOAD.dir
-/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/f031.elf.dir
