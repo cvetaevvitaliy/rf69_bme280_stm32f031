@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/local/bin/arm-none-eabi-g++ 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437]
@@ -33,13 +33,13 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_8601b/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_8601b.dir/build.make CMakeFiles/cmTC_8601b.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj
-/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/local/bin/gmake cmTC_13373/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_13373.dir/build.make CMakeFiles/cmTC_13373.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 Reading specs from /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -52,8 +52,8 @@ Target: arm-none-eabi
 Configured with: /tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native --libexecdir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/lib --infodir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors 6-2017-q2-update' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj' '-c'
- /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m -iprefix /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/ -isysroot /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccULkU36.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj' '-c'
+ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m -iprefix /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/ -isysroot /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccnAPdPO.s
 GNU C99 (GNU Tools for ARM Embedded Processors 6-2017-q2-update) version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (arm-none-eabi)
 	compiled by GNU C version 5.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -73,15 +73,15 @@ GNU C99 (GNU Tools for ARM Embedded Processors 6-2017-q2-update) version 6.3.1 2
 	compiled by GNU C version 5.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: aa3712e48f311f72956ce92bf2e89dbd
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj' '-c'
- /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m0 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccULkU36.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj' '-c'
+ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m0 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccnAPdPO.s
 GNU assembler version 2.28.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 2.28.0.20170620
 COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj' '-c'
-Linking C executable cmTC_8601b
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8601b.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld -v CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj  -o cmTC_8601b 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_13373
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13373.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld -v CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj  -o cmTC_13373 
 Using built-in specs.
 Reading specs from /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -97,14 +97,14 @@ Thread model: single
 gcc version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 
 COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_8601b'
- /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccdXxO6C.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -X -o cmTC_8601b /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1 -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_13373'
+ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccGI5Wus.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -X -o cmTC_13373 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1 -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_8601b'
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_13373'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit include dir info from above output: rv=done
@@ -124,13 +124,13 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_8601b/fast ]
-  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_8601b.dir/build.make CMakeFiles/cmTC_8601b.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_13373/fast ]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_13373.dir/build.make CMakeFiles/cmTC_13373.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -143,8 +143,8 @@ Parsed C implicit link information from above output:
   ignore line: [Configured with: /tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native --libexecdir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/lib --infodir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors 6-2017-q2-update' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (GNU Tools for ARM Embedded Processors 6-2017-q2-update) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m -iprefix /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/ -isysroot /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccULkU36.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m -iprefix /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/ -isysroot /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccnAPdPO.s]
   ignore line: [GNU C99 (GNU Tools for ARM Embedded Processors 6-2017-q2-update) version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 5.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -164,15 +164,15 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 5.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: aa3712e48f311f72956ce92bf2e89dbd]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m0 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccULkU36.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m0 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccnAPdPO.s]
   ignore line: [GNU assembler version 2.28.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 2.28.0.20170620]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [Linking C executable cmTC_8601b]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8601b.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld -v CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj  -o cmTC_8601b ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_13373]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13373.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld -v CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj  -o cmTC_13373 ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -188,13 +188,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (GNU Tools for ARM Embedded Processors 6-2017-q2-update) ]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_8601b']
-  link line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccdXxO6C.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -X -o cmTC_8601b /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1 -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_13373']
+  link line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccGI5Wus.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -X -o cmTC_13373 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1 -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld]
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccdXxO6C.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccGI5Wus.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
     arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
@@ -207,7 +207,7 @@ Parsed C implicit link information from above output:
     arg [--sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8601b] ==> ignore
+    arg [cmTC_13373] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o] ==> ignore
@@ -220,7 +220,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib]
     arg [-gc-sections] ==> ignore
     arg [--print-memory-usage] ==> ignore
-    arg [CMakeFiles/cmTC_8601b.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_13373.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lg_nano] ==> lib [g_nano]
@@ -239,7 +239,7 @@ Parsed C implicit link information from above output:
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o] ==> ignore
     arg [-T] ==> ignore
-    arg [/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld] ==> ignore
+    arg [/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld] ==> ignore
   collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m] ==> [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m]
   collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m] ==> [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/arm-none-eabi/lib/thumb/v6-m]
   collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m] ==> [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/arm-none-eabi/lib/thumb/v6-m]
@@ -255,71 +255,71 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_f133a/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_f133a.dir/build.make CMakeFiles/cmTC_f133a.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f133a.dir/feature_tests.c.obj
-/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c11 -o CMakeFiles/cmTC_f133a.dir/feature_tests.c.obj   -c /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f133a
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f133a.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_f133a.dir/feature_tests.c.obj  -o cmTC_f133a 
+Run Build Command(s):/usr/local/bin/gmake cmTC_5dda4/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_5dda4.dir/build.make CMakeFiles/cmTC_5dda4.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dda4.dir/feature_tests.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c11 -o CMakeFiles/cmTC_5dda4.dir/feature_tests.c.obj   -c /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5dda4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dda4.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_5dda4.dir/feature_tests.c.obj  -o cmTC_5dda4 
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_49690/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_49690.dir/build.make CMakeFiles/cmTC_49690.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_49690.dir/feature_tests.c.obj
-/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c99 -o CMakeFiles/cmTC_49690.dir/feature_tests.c.obj   -c /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_49690
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49690.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_49690.dir/feature_tests.c.obj  -o cmTC_49690 
+Run Build Command(s):/usr/local/bin/gmake cmTC_70c58/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_70c58.dir/build.make CMakeFiles/cmTC_70c58.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70c58.dir/feature_tests.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c99 -o CMakeFiles/cmTC_70c58.dir/feature_tests.c.obj   -c /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_70c58
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c58.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_70c58.dir/feature_tests.c.obj  -o cmTC_70c58 
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_43a9c/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_43a9c.dir/build.make CMakeFiles/cmTC_43a9c.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43a9c.dir/feature_tests.c.obj
-/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c90 -o CMakeFiles/cmTC_43a9c.dir/feature_tests.c.obj   -c /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_43a9c
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43a9c.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_43a9c.dir/feature_tests.c.obj  -o cmTC_43a9c 
+Run Build Command(s):/usr/local/bin/gmake cmTC_59e02/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_59e02.dir/build.make CMakeFiles/cmTC_59e02.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59e02.dir/feature_tests.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c90 -o CMakeFiles/cmTC_59e02.dir/feature_tests.c.obj   -c /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_59e02
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59e02.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_59e02.dir/feature_tests.c.obj  -o cmTC_59e02 
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_d40b7/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_d40b7.dir/build.make CMakeFiles/cmTC_d40b7.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -o CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/local/bin/gmake cmTC_1aef2/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_1aef2.dir/build.make CMakeFiles/cmTC_1aef2.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -o CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 Reading specs from /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -332,8 +332,8 @@ Target: arm-none-eabi
 Configured with: /tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native --libexecdir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/lib --infodir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors 6-2017-q2-update' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
- /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/cc1plus -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m -iprefix /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/ -isysroot /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccaySOVq.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/cc1plus -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m -iprefix /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/ -isysroot /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccLCj3HQ.s
 GNU C++11 (GNU Tools for ARM Embedded Processors 6-2017-q2-update) version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (arm-none-eabi)
 	compiled by GNU C version 5.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -359,15 +359,15 @@ GNU C++11 (GNU Tools for ARM Embedded Processors 6-2017-q2-update) version 6.3.1
 	compiled by GNU C version 5.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 8ddfff81fa2b49065bc3c5a9d65d3f19
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
- /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m0 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccaySOVq.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m0 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccLCj3HQ.s
 GNU assembler version 2.28.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 2.28.0.20170620
 COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
-Linking CXX executable cmTC_d40b7
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d40b7.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld -v CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_d40b7 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_1aef2
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aef2.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld -v CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_1aef2 
 Using built-in specs.
 Reading specs from /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -383,14 +383,14 @@ Thread model: single
 gcc version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 
 COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_d40b7'
- /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccVNlXsC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -X -o cmTC_d40b7 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1 -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_1aef2'
+ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccNjfBuw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -X -o cmTC_1aef2 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1 -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_d40b7'
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_1aef2'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit include dir info from above output: rv=done
@@ -416,13 +416,13 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_d40b7/fast ]
-  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_d40b7.dir/build.make CMakeFiles/cmTC_d40b7.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -o CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_1aef2/fast ]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_1aef2.dir/build.make CMakeFiles/cmTC_1aef2.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -o CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -435,8 +435,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Configured with: /tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native --libexecdir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/lib --infodir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-6-build_build-toolchain-mac-262_20170621_1498074986/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors 6-2017-q2-update' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (GNU Tools for ARM Embedded Processors 6-2017-q2-update) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/cc1plus -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m -iprefix /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/ -isysroot /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccaySOVq.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/cc1plus -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m -iprefix /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/ -isysroot /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccLCj3HQ.s]
   ignore line: [GNU C++11 (GNU Tools for ARM Embedded Processors 6-2017-q2-update) version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 5.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -462,15 +462,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 5.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 8ddfff81fa2b49065bc3c5a9d65d3f19]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m0 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccaySOVq.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m0 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccLCj3HQ.s]
   ignore line: [GNU assembler version 2.28.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 2.28.0.20170620]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [Linking CXX executable cmTC_d40b7]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d40b7.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld -v CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_d40b7 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_1aef2]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aef2.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld -v CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_1aef2 ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -486,13 +486,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.3.1 20170620 (release) [ARM/embedded-6-branch revision 249437] (GNU Tools for ARM Embedded Processors 6-2017-q2-update) ]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_d40b7']
-  link line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccVNlXsC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -X -o cmTC_d40b7 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1 -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld' '-v' '-o' 'cmTC_1aef2']
+  link line: [ /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccNjfBuw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi -X -o cmTC_1aef2 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1 -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld]
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccVNlXsC.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/yr/y1zpv0pj4x1c42lkb13j_mzr0000gn/T//ccNjfBuw.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
     arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
@@ -505,7 +505,7 @@ Parsed CXX implicit link information from above output:
     arg [--sysroot=/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d40b7] ==> ignore
+    arg [cmTC_1aef2] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o] ==> ignore
@@ -518,7 +518,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib]
     arg [-gc-sections] ==> ignore
     arg [--print-memory-usage] ==> ignore
-    arg [CMakeFiles/cmTC_d40b7.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_1aef2.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++_nano] ==> lib [stdc++_nano]
     arg [-lm] ==> lib [m]
     arg [--start-group] ==> ignore
@@ -539,7 +539,7 @@ Parsed CXX implicit link information from above output:
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o] ==> ignore
     arg [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o] ==> ignore
     arg [-T] ==> ignore
-    arg [/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld] ==> ignore
+    arg [/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld] ==> ignore
   collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m] ==> [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m]
   collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m] ==> [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/arm-none-eabi/lib/thumb/v6-m]
   collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../arm-none-eabi/lib/thumb/v6-m] ==> [/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/arm-none-eabi/lib/thumb/v6-m]
@@ -555,80 +555,80 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_b3d11/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_b3d11.dir/build.make CMakeFiles/cmTC_b3d11.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b3d11.dir/feature_tests.cxx.obj
-/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++1z -o CMakeFiles/cmTC_b3d11.dir/feature_tests.cxx.obj -c /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b3d11
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d11.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_b3d11.dir/feature_tests.cxx.obj  -o cmTC_b3d11 
+Run Build Command(s):/usr/local/bin/gmake cmTC_01a64/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_01a64.dir/build.make CMakeFiles/cmTC_01a64.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01a64.dir/feature_tests.cxx.obj
+/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++1z -o CMakeFiles/cmTC_01a64.dir/feature_tests.cxx.obj -c /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_01a64
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01a64.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_01a64.dir/feature_tests.cxx.obj  -o cmTC_01a64 
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_66737/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_66737.dir/build.make CMakeFiles/cmTC_66737.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_66737.dir/feature_tests.cxx.obj
-/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++14 -o CMakeFiles/cmTC_66737.dir/feature_tests.cxx.obj -c /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_66737
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66737.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_66737.dir/feature_tests.cxx.obj  -o cmTC_66737 
+Run Build Command(s):/usr/local/bin/gmake cmTC_7a9a4/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_7a9a4.dir/build.make CMakeFiles/cmTC_7a9a4.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7a9a4.dir/feature_tests.cxx.obj
+/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++14 -o CMakeFiles/cmTC_7a9a4.dir/feature_tests.cxx.obj -c /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7a9a4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a9a4.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_7a9a4.dir/feature_tests.cxx.obj  -o cmTC_7a9a4 
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_2d532/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_2d532.dir/build.make CMakeFiles/cmTC_2d532.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2d532.dir/feature_tests.cxx.obj
-/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++11 -o CMakeFiles/cmTC_2d532.dir/feature_tests.cxx.obj -c /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2d532
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d532.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_2d532.dir/feature_tests.cxx.obj  -o cmTC_2d532 
+Run Build Command(s):/usr/local/bin/gmake cmTC_82387/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_82387.dir/build.make CMakeFiles/cmTC_82387.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_82387.dir/feature_tests.cxx.obj
+/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++11 -o CMakeFiles/cmTC_82387.dir/feature_tests.cxx.obj -c /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_82387
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82387.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_82387.dir/feature_tests.cxx.obj  -o cmTC_82387 
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_495af/fast 
-/usr/local/bin/gmake -f CMakeFiles/cmTC_495af.dir/build.make CMakeFiles/cmTC_495af.dir/build
-gmake[1]: Entering directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_495af.dir/feature_tests.cxx.obj
-/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++98 -o CMakeFiles/cmTC_495af.dir/feature_tests.cxx.obj -c /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_495af
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_495af.dir/link.txt --verbose=1
-/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_495af.dir/feature_tests.cxx.obj  -o cmTC_495af 
+Run Build Command(s):/usr/local/bin/gmake cmTC_a90ab/fast 
+/usr/local/bin/gmake -f CMakeFiles/cmTC_a90ab.dir/build.make CMakeFiles/cmTC_a90ab.dir/build
+gmake[1]: Entering directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a90ab.dir/feature_tests.cxx.obj
+/usr/local/bin/arm-none-eabi-g++    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++98 -o CMakeFiles/cmTC_a90ab.dir/feature_tests.cxx.obj -c /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a90ab
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a90ab.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-g++  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld  CMakeFiles/cmTC_a90ab.dir/feature_tests.cxx.obj  -o cmTC_a90ab 
 Memory region         Used Size  Region Size  %age Used
              RAM:        1568 B         4 KB     38.28%
            FLASH:         128 B        32 KB      0.39/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
 %
-gmake[1]: Leaving directory '/Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

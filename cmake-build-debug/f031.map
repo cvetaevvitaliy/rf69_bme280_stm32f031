@@ -263,8 +263,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x88 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .debug_ranges  0x0000000000000000       0x78 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
- .debug_line    0x0000000000000000      0x44c CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
- .debug_str     0x0000000000000000      0x973 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
+ .debug_line    0x0000000000000000      0x455 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
+ .debug_str     0x0000000000000000      0x979 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .comment       0x0000000000000000       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .debug_frame   0x0000000000000000      0x1c0 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .ARM.attributes
@@ -309,8 +309,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x98 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .debug_ranges  0x0000000000000000       0x88 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
- .debug_line    0x0000000000000000      0x499 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
- .debug_str     0x0000000000000000      0xa61 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
+ .debug_line    0x0000000000000000      0x4a2 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
+ .debug_str     0x0000000000000000      0xa67 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .comment       0x0000000000000000       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .debug_frame   0x0000000000000000      0x204 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -505,8 +505,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x40 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .debug_ranges  0x0000000000000000       0x30 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
- .debug_line    0x0000000000000000      0x2db CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
- .debug_str     0x0000000000000000      0x6fa CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
+ .debug_line    0x0000000000000000      0x2e4 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
+ .debug_str     0x0000000000000000      0x700 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .comment       0x0000000000000000       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .debug_frame   0x0000000000000000       0xa0 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -593,10 +593,6 @@ Discarded input sections
                 0x0000000000000000       0x70 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
  .text.HAL_RTCEx_PollForTamper2Event
                 0x0000000000000000       0x70 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .text.HAL_RTCEx_BKUPWrite
-                0x0000000000000000       0x30 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .text.HAL_RTCEx_BKUPRead
-                0x0000000000000000       0x2c CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
  .text.HAL_RTCEx_SetSmoothCalib
                 0x0000000000000000       0xb8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
  .text.HAL_RTCEx_SetSynchroShift
@@ -613,17 +609,6 @@ Discarded input sections
                 0x0000000000000000       0x5e CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
  .text.HAL_RTCEx_DisableBypassShadow
                 0x0000000000000000       0x5e CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_info    0x0000000000000000     0x1327 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_abbrev  0x0000000000000000      0x27b CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_aranges
-                0x0000000000000000       0xd8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_ranges  0x0000000000000000       0xc8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_line    0x0000000000000000      0x771 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_str     0x0000000000000000      0xcdd CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .comment       0x0000000000000000       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_frame   0x0000000000000000      0x310 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .ARM.attributes
-                0x0000000000000000       0x31 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
@@ -739,8 +724,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj
  .debug_ranges  0x0000000000000000       0x10 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj
- .debug_line    0x0000000000000000      0x2af CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj
- .debug_str     0x0000000000000000      0xa83 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj
+ .debug_line    0x0000000000000000      0x2b8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj
+ .debug_str     0x0000000000000000      0xa89 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj
  .comment       0x0000000000000000       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj
  .debug_frame   0x0000000000000000       0x30 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj
  .ARM.attributes
@@ -752,8 +737,8 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000      0x155 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
  .debug_aranges
                 0x0000000000000000       0x18 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
- .debug_line    0x0000000000000000      0x1af CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
- .debug_str     0x0000000000000000      0x63e CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
+ .debug_line    0x0000000000000000      0x1b2 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
+ .debug_str     0x0000000000000000      0x644 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
  .comment       0x0000000000000000       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
  .ARM.attributes
                 0x0000000000000000       0x31 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
@@ -764,8 +749,8 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000      0x155 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
  .debug_aranges
                 0x0000000000000000       0x18 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
- .debug_line    0x0000000000000000      0x1af CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
- .debug_str     0x0000000000000000      0x641 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
+ .debug_line    0x0000000000000000      0x1b2 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
+ .debug_str     0x0000000000000000      0x647 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
  .comment       0x0000000000000000       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
  .ARM.attributes
                 0x0000000000000000       0x31 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
@@ -1155,7 +1140,7 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eab
                 0x0000000008000000                g_pfnVectors
                 0x00000000080000c0                . = ALIGN (0x4)
 
-.text           0x00000000080000c0     0x7288
+.text           0x00000000080000c0     0x730c
                 0x00000000080000c0                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080000c0       0x60 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
@@ -1383,307 +1368,314 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eab
  .text.RTC_Bcd2ToByte
                 0x00000000080047e4       0x3e CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
                 0x00000000080047e4                RTC_Bcd2ToByte
- *fill*         0x0000000008004822        0x2 
+ .text.HAL_RTCEx_BKUPWrite
+                0x0000000008004822       0x30 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+                0x0000000008004822                HAL_RTCEx_BKUPWrite
+ .text.HAL_RTCEx_BKUPRead
+                0x0000000008004852       0x2c CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+                0x0000000008004852                HAL_RTCEx_BKUPRead
+ *fill*         0x000000000800487e        0x2 
  .text.HAL_SPI_Init
-                0x0000000008004824      0x130 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
-                0x0000000008004824                HAL_SPI_Init
+                0x0000000008004880      0x130 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x0000000008004880                HAL_SPI_Init
  .text.HAL_SPI_TransmitReceive
-                0x0000000008004954      0x428 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
-                0x0000000008004954                HAL_SPI_TransmitReceive
+                0x00000000080049b0      0x428 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x00000000080049b0                HAL_SPI_TransmitReceive
  .text.SPI_WaitFlagStateUntilTimeout
-                0x0000000008004d7c       0xdc CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x0000000008004dd8       0xdc CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
  .text.SPI_WaitFifoStateUntilTimeout
-                0x0000000008004e58       0xf8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x0000000008004eb4       0xf8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
  .text.SPI_EndRxTxTransaction
-                0x0000000008004f50       0x8c CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x0000000008004fac       0x8c CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
  .text.RFM69_setMode
-                0x0000000008004fdc      0x110 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008004fdc                RFM69_setMode
+                0x0000000008005038      0x110 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005038                RFM69_setMode
  .text.RFM69_setHighPower
-                0x00000000080050ec       0x3c CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x00000000080050ec                RFM69_setHighPower
+                0x0000000008005148       0x3c CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005148                RFM69_setHighPower
  .text.RFM69_initialize
-                0x0000000008005128      0x2a8 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005128                RFM69_initialize
+                0x0000000008005184      0x2a8 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005184                RFM69_initialize
  .text.RFM69_sleep
-                0x00000000080053d0       0x10 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x00000000080053d0                RFM69_sleep
+                0x000000000800542c       0x10 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x000000000800542c                RFM69_sleep
  .text.RFM69_setPowerLevel
-                0x00000000080053e0       0x5c CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x00000000080053e0                RFM69_setPowerLevel
+                0x000000000800543c       0x5c CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x000000000800543c                RFM69_setPowerLevel
  .text.RFM69_canSend
-                0x000000000800543c       0x3c CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x000000000800543c                RFM69_canSend
+                0x0000000008005498       0x3c CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005498                RFM69_canSend
  .text.RFM69_send
-                0x0000000008005478       0x70 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005478                RFM69_send
+                0x00000000080054d4       0x70 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x00000000080054d4                RFM69_send
  .text.RFM69_sendFrame
-                0x00000000080054e8      0x134 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005544      0x134 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
  .text.RFM69_interruptHandler
-                0x000000000800561c      0x180 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x000000000800561c                RFM69_interruptHandler
+                0x0000000008005678      0x180 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005678                RFM69_interruptHandler
  .text.RFM69_receiveBegin
-                0x000000000800579c       0x88 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x000000000800579c                RFM69_receiveBegin
+                0x00000000080057f8       0x88 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x00000000080057f8                RFM69_receiveBegin
  .text.RFM69_receiveDone
-                0x0000000008005824       0x54 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005824                RFM69_receiveDone
+                0x0000000008005880       0x54 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005880                RFM69_receiveDone
  .text.RFM69_encrypt
-                0x0000000008005878       0x86 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005878                RFM69_encrypt
- *fill*         0x00000000080058fe        0x2 
+                0x00000000080058d4       0x86 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x00000000080058d4                RFM69_encrypt
+ *fill*         0x000000000800595a        0x2 
  .text.RFM69_readRSSI
-                0x0000000008005900       0x68 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005900                RFM69_readRSSI
+                0x000000000800595c       0x68 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x000000000800595c                RFM69_readRSSI
  .text.RFM69_promiscuous
-                0x0000000008005968       0x20 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005968                RFM69_promiscuous
+                0x00000000080059c4       0x20 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x00000000080059c4                RFM69_promiscuous
  .text.RFM69_setHighPowerRegs
-                0x0000000008005988       0x40 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005988                RFM69_setHighPowerRegs
+                0x00000000080059e4       0x40 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x00000000080059e4                RFM69_setHighPowerRegs
  .text.RFM69_readReg
-                0x00000000080059c8       0x40 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x00000000080059c8                RFM69_readReg
+                0x0000000008005a24       0x40 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005a24                RFM69_readReg
  .text.RFM69_writeReg
-                0x0000000008005a08       0x3e CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005a08                RFM69_writeReg
+                0x0000000008005a64       0x3e CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005a64                RFM69_writeReg
  .text.RFM69_select
-                0x0000000008005a46       0x14 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005a46                RFM69_select
+                0x0000000008005aa2       0x14 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005aa2                RFM69_select
  .text.RFM69_unselect
-                0x0000000008005a5a       0x14 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                0x0000000008005a5a                RFM69_unselect
+                0x0000000008005ab6       0x14 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x0000000008005ab6                RFM69_unselect
  .text.bmp280_init_default_params
-                0x0000000008005a6e       0x34 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
-                0x0000000008005a6e                bmp280_init_default_params
+                0x0000000008005aca       0x34 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005aca                bmp280_init_default_params
  .text.bmp280_sleep
-                0x0000000008005aa2       0x16 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
-                0x0000000008005aa2                bmp280_sleep
+                0x0000000008005afe       0x16 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005afe                bmp280_sleep
  .text.read_register16
-                0x0000000008005ab8       0x72 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005b14       0x72 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .text.read_data
-                0x0000000008005b2a       0x68 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005b86       0x68 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .text.read_calibration_data
-                0x0000000008005b92      0x100 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005bee      0x100 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .text.read_hum_calibration_data
-                0x0000000008005c92       0xc4 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
- *fill*         0x0000000008005d56        0x2 
+                0x0000000008005cee       0xc4 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+ *fill*         0x0000000008005db2        0x2 
  .text.write_register8
-                0x0000000008005d58       0x5c CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005db4       0x5c CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .text.bmp280_init
-                0x0000000008005db4      0x174 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
-                0x0000000008005db4                bmp280_init
+                0x0000000008005e10      0x174 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005e10                bmp280_init
  .text.compensate_temperature
-                0x0000000008005f28       0x68 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005f84       0x68 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .text.compensate_pressure
-                0x0000000008005f90      0x3a8 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008005fec      0x3a8 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .text.compensate_humidity
-                0x0000000008006338       0xc4 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008006394       0xc4 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .text.bmp280_read_fixed
-                0x00000000080063fc       0xe8 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
-                0x00000000080063fc                bmp280_read_fixed
+                0x0000000008006458       0xe8 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008006458                bmp280_read_fixed
  .text.bmp280_read_float
-                0x00000000080064e4       0x98 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
-                0x00000000080064e4                bmp280_read_float
+                0x0000000008006540       0x98 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000008006540                bmp280_read_float
  .text.noInterrupts
-                0x000000000800657c       0x10 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
-                0x000000000800657c                noInterrupts
+                0x00000000080065d8       0x10 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x00000000080065d8                noInterrupts
  .text.interrupts
-                0x000000000800658c       0x10 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
-                0x000000000800658c                interrupts
+                0x00000000080065e8       0x10 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x00000000080065e8                interrupts
  .text.RFM69_SetCSPin
-                0x000000000800659c       0x3a CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
-                0x000000000800659c                RFM69_SetCSPin
+                0x00000000080065f8       0x3a CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x00000000080065f8                RFM69_SetCSPin
  .text.RFM69_ReadDIO0Pin
-                0x00000000080065d6       0x1e CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
-                0x00000000080065d6                RFM69_ReadDIO0Pin
+                0x0000000008006632       0x1e CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x0000000008006632                RFM69_ReadDIO0Pin
  .text.SPI_transfer8
-                0x00000000080065f4       0x38 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
-                0x00000000080065f4                SPI_transfer8
+                0x0000000008006650       0x38 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x0000000008006650                SPI_transfer8
  .text.Timeout_IsTimeout1
-                0x000000000800662c       0x30 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
-                0x000000000800662c                Timeout_IsTimeout1
+                0x0000000008006688       0x30 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x0000000008006688                Timeout_IsTimeout1
  .text.Timeout_SetTimeout1
-                0x000000000800665c       0x30 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
-                0x000000000800665c                Timeout_SetTimeout1
+                0x00000000080066b8       0x30 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x00000000080066b8                Timeout_SetTimeout1
  .text.HAL_ADC_ConvCpltCallback
-                0x000000000800668c       0x40 CMakeFiles/f031.elf.dir/Src/main.c.obj
-                0x000000000800668c                HAL_ADC_ConvCpltCallback
+                0x00000000080066e8       0x40 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x00000000080066e8                HAL_ADC_ConvCpltCallback
  .text.Set_Alarm
-                0x00000000080066cc       0x84 CMakeFiles/f031.elf.dir/Src/main.c.obj
-                0x00000000080066cc                Set_Alarm
- .text.main     0x0000000008006750      0x2a8 CMakeFiles/f031.elf.dir/Src/main.c.obj
-                0x0000000008006750                main
+                0x0000000008006728       0x84 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006728                Set_Alarm
+ .text.main     0x00000000080067ac      0x2dc CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x00000000080067ac                main
  .text.SystemClock_Config
-                0x00000000080069f8      0x108 CMakeFiles/f031.elf.dir/Src/main.c.obj
-                0x00000000080069f8                SystemClock_Config
+                0x0000000008006a88      0x104 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006a88                SystemClock_Config
  .text.MX_NVIC_Init
-                0x0000000008006b00       0x1a CMakeFiles/f031.elf.dir/Src/main.c.obj
- *fill*         0x0000000008006b1a        0x2 
+                0x0000000008006b8c       0x1a CMakeFiles/f031.elf.dir/Src/main.c.obj
+ *fill*         0x0000000008006ba6        0x2 
  .text.MX_ADC_Init
-                0x0000000008006b1c       0xc0 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006ba8       0xbc CMakeFiles/f031.elf.dir/Src/main.c.obj
  .text.MX_I2C1_Init
-                0x0000000008006bdc       0xa8 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006c64       0xa4 CMakeFiles/f031.elf.dir/Src/main.c.obj
  .text.MX_RTC_Init
-                0x0000000008006c84      0x150 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006d08      0x150 CMakeFiles/f031.elf.dir/Src/main.c.obj
  .text.MX_SPI1_Init
-                0x0000000008006dd4       0x8c CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006e58       0x8c CMakeFiles/f031.elf.dir/Src/main.c.obj
  .text.MX_DMA_Init
-                0x0000000008006e60       0x3c CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006ee4       0x3c CMakeFiles/f031.elf.dir/Src/main.c.obj
  .text.MX_GPIO_Init
-                0x0000000008006e9c       0xa8 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006f20       0xa8 CMakeFiles/f031.elf.dir/Src/main.c.obj
  .text._Error_Handler
-                0x0000000008006f44        0xc CMakeFiles/f031.elf.dir/Src/main.c.obj
-                0x0000000008006f44                _Error_Handler
+                0x0000000008006fc8        0xc CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000008006fc8                _Error_Handler
  .text.HAL_MspInit
-                0x0000000008006f50       0x70 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
-                0x0000000008006f50                HAL_MspInit
+                0x0000000008006fd4       0x70 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+                0x0000000008006fd4                HAL_MspInit
  .text.HAL_ADC_MspInit
-                0x0000000008006fc0       0xa0 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
-                0x0000000008006fc0                HAL_ADC_MspInit
+                0x0000000008007044       0xa0 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+                0x0000000008007044                HAL_ADC_MspInit
  .text.HAL_I2C_MspInit
-                0x0000000008007060       0x78 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
-                0x0000000008007060                HAL_I2C_MspInit
+                0x00000000080070e4       0x78 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+                0x00000000080070e4                HAL_I2C_MspInit
  .text.HAL_RTC_MspInit
-                0x00000000080070d8       0x40 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
-                0x00000000080070d8                HAL_RTC_MspInit
+                0x000000000800715c       0x40 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+                0x000000000800715c                HAL_RTC_MspInit
  .text.HAL_SPI_MspInit
-                0x0000000008007118       0x78 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
-                0x0000000008007118                HAL_SPI_MspInit
+                0x000000000800719c       0x78 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+                0x000000000800719c                HAL_SPI_MspInit
  .text.NMI_Handler
-                0x0000000008007190        0xa CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                0x0000000008007190                NMI_Handler
+                0x0000000008007214        0xa CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x0000000008007214                NMI_Handler
  .text.HardFault_Handler
-                0x000000000800719a        0x6 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                0x000000000800719a                HardFault_Handler
+                0x000000000800721e        0x6 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x000000000800721e                HardFault_Handler
  .text.SVC_Handler
-                0x00000000080071a0        0xa CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                0x00000000080071a0                SVC_Handler
+                0x0000000008007224        0xa CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x0000000008007224                SVC_Handler
  .text.PendSV_Handler
-                0x00000000080071aa        0xa CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                0x00000000080071aa                PendSV_Handler
+                0x000000000800722e        0xa CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x000000000800722e                PendSV_Handler
  .text.SysTick_Handler
-                0x00000000080071b4       0x12 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                0x00000000080071b4                SysTick_Handler
- *fill*         0x00000000080071c6        0x2 
+                0x0000000008007238       0x12 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x0000000008007238                SysTick_Handler
+ *fill*         0x000000000800724a        0x2 
  .text.RTC_IRQHandler
-                0x00000000080071c8       0x18 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                0x00000000080071c8                RTC_IRQHandler
+                0x000000000800724c       0x18 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x000000000800724c                RTC_IRQHandler
  .text.EXTI0_1_IRQHandler
-                0x00000000080071e0       0x14 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                0x00000000080071e0                EXTI0_1_IRQHandler
+                0x0000000008007264       0x14 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x0000000008007264                EXTI0_1_IRQHandler
  .text.DMA1_Channel1_IRQHandler
-                0x00000000080071f4       0x18 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                0x00000000080071f4                DMA1_Channel1_IRQHandler
+                0x0000000008007278       0x18 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x0000000008007278                DMA1_Channel1_IRQHandler
  .text.SystemInit
-                0x000000000800720c       0x88 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
-                0x000000000800720c                SystemInit
+                0x0000000008007290       0x88 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+                0x0000000008007290                SystemInit
  .text.Reset_Handler
-                0x0000000008007294       0x50 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
-                0x0000000008007294                Reset_Handler
+                0x0000000008007318       0x50 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
+                0x0000000008007318                Reset_Handler
  .text.Default_Handler
-                0x00000000080072e4        0x2 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
-                0x00000000080072e4                TIM1_BRK_UP_TRG_COM_IRQHandler
-                0x00000000080072e4                PVD_IRQHandler
-                0x00000000080072e4                I2C1_IRQHandler
-                0x00000000080072e4                SPI1_IRQHandler
-                0x00000000080072e4                EXTI2_3_IRQHandler
-                0x00000000080072e4                ADC1_IRQHandler
-                0x00000000080072e4                TIM17_IRQHandler
-                0x00000000080072e4                TIM16_IRQHandler
-                0x00000000080072e4                TIM3_IRQHandler
-                0x00000000080072e4                EXTI4_15_IRQHandler
-                0x00000000080072e4                RCC_IRQHandler
-                0x00000000080072e4                Default_Handler
-                0x00000000080072e4                TIM14_IRQHandler
-                0x00000000080072e4                DMA1_Channel4_5_IRQHandler
-                0x00000000080072e4                WWDG_IRQHandler
-                0x00000000080072e4                TIM2_IRQHandler
-                0x00000000080072e4                DMA1_Channel2_3_IRQHandler
-                0x00000000080072e4                FLASH_IRQHandler
-                0x00000000080072e4                USART1_IRQHandler
-                0x00000000080072e4                TIM1_CC_IRQHandler
- *fill*         0x00000000080072e6        0x2 
+                0x0000000008007368        0x2 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
+                0x0000000008007368                TIM1_BRK_UP_TRG_COM_IRQHandler
+                0x0000000008007368                PVD_IRQHandler
+                0x0000000008007368                I2C1_IRQHandler
+                0x0000000008007368                SPI1_IRQHandler
+                0x0000000008007368                EXTI2_3_IRQHandler
+                0x0000000008007368                ADC1_IRQHandler
+                0x0000000008007368                TIM17_IRQHandler
+                0x0000000008007368                TIM16_IRQHandler
+                0x0000000008007368                TIM3_IRQHandler
+                0x0000000008007368                EXTI4_15_IRQHandler
+                0x0000000008007368                RCC_IRQHandler
+                0x0000000008007368                Default_Handler
+                0x0000000008007368                TIM14_IRQHandler
+                0x0000000008007368                DMA1_Channel4_5_IRQHandler
+                0x0000000008007368                WWDG_IRQHandler
+                0x0000000008007368                TIM2_IRQHandler
+                0x0000000008007368                DMA1_Channel2_3_IRQHandler
+                0x0000000008007368                FLASH_IRQHandler
+                0x0000000008007368                USART1_IRQHandler
+                0x0000000008007368                TIM1_CC_IRQHandler
+ *fill*         0x000000000800736a        0x2 
  .text.__libc_init_array
-                0x00000000080072e8       0x48 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-init.o)
-                0x00000000080072e8                __libc_init_array
+                0x000000000800736c       0x48 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-init.o)
+                0x000000000800736c                __libc_init_array
  *(.glue_7)
- .glue_7        0x0000000008007330        0x0 linker stubs
+ .glue_7        0x00000000080073b4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008007330        0x0 linker stubs
+ .glue_7t       0x00000000080073b4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008007330        0x0 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .eh_frame      0x00000000080073b4        0x0 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
  *(.init)
- .init          0x0000000008007330        0x4 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
-                0x0000000008007330                _init
- .init          0x0000000008007334        0x8 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ .init          0x00000000080073b4        0x4 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x00000000080073b4                _init
+ .init          0x00000000080073b8        0x8 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
  *(.fini)
- .fini          0x000000000800733c        0x4 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
-                0x000000000800733c                _fini
- .fini          0x0000000008007340        0x8 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
-                0x0000000008007348                . = ALIGN (0x4)
-                0x0000000008007348                _etext = .
+ .fini          0x00000000080073c0        0x4 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x00000000080073c0                _fini
+ .fini          0x00000000080073c4        0x8 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x00000000080073cc                . = ALIGN (0x4)
+                0x00000000080073cc                _etext = .
 
-.vfp11_veneer   0x0000000008007348        0x0
- .vfp11_veneer  0x0000000008007348        0x0 linker stubs
+.vfp11_veneer   0x00000000080073cc        0x0
+ .vfp11_veneer  0x00000000080073cc        0x0 linker stubs
 
-.v4_bx          0x0000000008007348        0x0
- .v4_bx         0x0000000008007348        0x0 linker stubs
+.v4_bx          0x00000000080073cc        0x0
+ .v4_bx         0x00000000080073cc        0x0 linker stubs
 
-.iplt           0x0000000008007348        0x0
- .iplt          0x0000000008007348        0x0 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.iplt           0x00000000080073cc        0x0
+ .iplt          0x00000000080073cc        0x0 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.rodata         0x0000000008007348      0x1ac
-                0x0000000008007348                . = ALIGN (0x4)
+.rodata         0x00000000080073cc      0x1b4
+                0x00000000080073cc                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008007348       0x20 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .rodata        0x0000000008007368       0x35 CMakeFiles/f031.elf.dir/Src/main.c.obj
- *fill*         0x000000000800739d        0x3 
- .rodata        0x00000000080073a0       0x30 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
- .rodata        0x00000000080073d0       0x80 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divsf3.o)
- .rodata        0x0000000008007450       0x40 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divdf3.o)
- .rodata        0x0000000008007490       0x40 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+ .rodata        0x00000000080073cc       0x20 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .rodata        0x00000000080073ec       0x39 CMakeFiles/f031.elf.dir/Src/main.c.obj
+ *fill*         0x0000000008007425        0x3 
+ .rodata        0x0000000008007428       0x33 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+ *fill*         0x000000000800745b        0x1 
+ .rodata        0x000000000800745c       0x80 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divsf3.o)
+ .rodata        0x00000000080074dc       0x40 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divdf3.o)
+ .rodata        0x000000000800751c       0x40 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(muldf3.o)
  *(.rodata*)
  .rodata.RFM69_setMode
-                0x00000000080074d0       0x14 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x000000000800755c       0x14 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
  .rodata.AHBPrescTable
-                0x00000000080074e4       0x10 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
-                0x00000000080074e4                AHBPrescTable
-                0x00000000080074f4                . = ALIGN (0x4)
+                0x0000000008007570       0x10 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+                0x0000000008007570                AHBPrescTable
+                0x0000000008007580                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00000000080074f4        0x8
-                0x00000000080074f4                __exidx_start = .
+.ARM            0x0000000008007580        0x8
+                0x0000000008007580                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x00000000080074f4        0x8 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_divdi3.o)
-                0x00000000080074fc                __exidx_end = .
+ .ARM.exidx     0x0000000008007580        0x8 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_divdi3.o)
+                0x0000000008007588                __exidx_end = .
 
-.rel.dyn        0x00000000080074fc        0x0
- .rel.iplt      0x00000000080074fc        0x0 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.rel.dyn        0x0000000008007588        0x0
+ .rel.iplt      0x0000000008007588        0x0 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.preinit_array  0x00000000080074fc        0x0
-                0x00000000080074fc                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0000000008007588        0x0
+                0x0000000008007588                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00000000080074fc                PROVIDE (__preinit_array_end, .)
+                0x0000000008007588                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x00000000080074fc        0x4
-                0x00000000080074fc                PROVIDE (__init_array_start, .)
+.init_array     0x0000000008007588        0x4
+                0x0000000008007588                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080074fc        0x4 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
-                0x0000000008007500                PROVIDE (__init_array_end, .)
+ .init_array    0x0000000008007588        0x4 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+                0x000000000800758c                PROVIDE (__init_array_end, .)
 
-.fini_array     0x0000000008007500        0x4
+.fini_array     0x000000000800758c        0x4
                 [!provide]                        PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008007500        0x4 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .fini_array    0x000000000800758c        0x4 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end, .)
-                0x0000000008007504                _sidata = LOADADDR (.data)
+                0x0000000008007590                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x8 load address 0x0000000008007504
+.data           0x0000000020000000        0x8 load address 0x0000000008007590
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1699,14 +1691,14 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eab
                 0x0000000020000008                . = ALIGN (0x4)
                 0x0000000020000008                _edata = .
 
-.jcr            0x0000000020000008        0x0 load address 0x000000000800750c
+.jcr            0x0000000020000008        0x0 load address 0x0000000008007598
  .jcr           0x0000000020000008        0x0 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.igot.plt       0x0000000020000008        0x0 load address 0x000000000800750c
+.igot.plt       0x0000000020000008        0x0 load address 0x0000000008007598
  .igot.plt      0x0000000020000008        0x0 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
                 0x0000000020000008                . = ALIGN (0x4)
 
-.bss            0x0000000020000008      0x268 load address 0x000000000800750c
+.bss            0x0000000020000008      0x268 load address 0x0000000008007598
                 0x0000000020000008                _sbss = .
                 0x0000000020000008                __bss_start__ = _sbss
  *(.bss)
@@ -1788,7 +1780,7 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eab
                 0x0000000020000270                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000270      0x600 load address 0x000000000800750c
+                0x0000000020000270      0x600 load address 0x0000000008007598
                 0x0000000020000270                . = ALIGN (0x8)
                 0x0000000020000270                PROVIDE (end, .)
                 [!provide]                        PROVIDE (_end, .)
@@ -1835,66 +1827,68 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eab
  .ARM.attributes
                 0x0000000000000265       0x31 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
  .ARM.attributes
-                0x0000000000000296       0x31 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x0000000000000296       0x31 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
  .ARM.attributes
-                0x00000000000002c7       0x31 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x00000000000002c7       0x31 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
  .ARM.attributes
-                0x00000000000002f8       0x31 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x00000000000002f8       0x31 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
  .ARM.attributes
-                0x0000000000000329       0x31 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x0000000000000329       0x31 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .ARM.attributes
-                0x000000000000035a       0x31 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x000000000000035a       0x31 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
  .ARM.attributes
-                0x000000000000038b       0x31 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+                0x000000000000038b       0x31 CMakeFiles/f031.elf.dir/Src/main.c.obj
  .ARM.attributes
-                0x00000000000003bc       0x31 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x00000000000003bc       0x31 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
  .ARM.attributes
-                0x00000000000003ed       0x31 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+                0x00000000000003ed       0x31 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
  .ARM.attributes
-                0x000000000000041e       0x21 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
+                0x000000000000041e       0x31 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
  .ARM.attributes
-                0x000000000000043f       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                0x000000000000044f       0x21 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
  .ARM.attributes
-                0x000000000000045d       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000000000470       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000000000000047b       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_aeabi_ldivmod.o)
+                0x000000000000048e       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x0000000000000499       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_muldi3.o)
+                0x00000000000004ac       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_aeabi_ldivmod.o)
  .ARM.attributes
-                0x00000000000004c5       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(bpabi.o)
+                0x00000000000004ca       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_muldi3.o)
  .ARM.attributes
-                0x00000000000004f1       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divsf3.o)
+                0x00000000000004f6       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(bpabi.o)
  .ARM.attributes
-                0x000000000000051d       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(fixsfsi.o)
+                0x0000000000000522       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divsf3.o)
  .ARM.attributes
-                0x0000000000000549       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatsisf.o)
+                0x000000000000054e       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(fixsfsi.o)
  .ARM.attributes
-                0x0000000000000575       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatunsisf.o)
+                0x000000000000057a       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatsisf.o)
  .ARM.attributes
-                0x00000000000005a1       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divdf3.o)
+                0x00000000000005a6       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatunsisf.o)
  .ARM.attributes
-                0x00000000000005cd       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+                0x00000000000005d2       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divdf3.o)
  .ARM.attributes
-                0x00000000000005f9       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
+                0x00000000000005fe       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(muldf3.o)
  .ARM.attributes
-                0x0000000000000625       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+                0x000000000000062a       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
  .ARM.attributes
-                0x0000000000000651       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(extendsfdf2.o)
+                0x0000000000000656       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
  .ARM.attributes
-                0x000000000000067d       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(truncdfsf2.o)
+                0x0000000000000682       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(extendsfdf2.o)
  .ARM.attributes
-                0x00000000000006a9       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+                0x00000000000006ae       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(truncdfsf2.o)
  .ARM.attributes
-                0x00000000000006c7       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_divdi3.o)
+                0x00000000000006da       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
  .ARM.attributes
-                0x00000000000006f3       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_clzdi2.o)
+                0x00000000000006f8       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_divdi3.o)
  .ARM.attributes
-                0x0000000000000711       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-init.o)
+                0x0000000000000724       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_clzdi2.o)
  .ARM.attributes
-                0x000000000000073d       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x0000000000000742       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000000000000076e       0x1e /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
 OUTPUT(f031.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x17037
+.debug_info     0x0000000000000000    0x18364
  .debug_info    0x0000000000000000      0xda0 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .debug_info    0x0000000000000da0     0x1442 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
  .debug_info    0x00000000000021e2      0xd84 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
@@ -1907,17 +1901,18 @@ OUTPUT(f031.elf elf32-littlearm)
  .debug_info    0x0000000000009c9f      0xf83 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .debug_info    0x000000000000ac22      0xb82 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
  .debug_info    0x000000000000b7a4     0x1270 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_info    0x000000000000ca14     0x1d78 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_info    0x000000000000e78c     0x1002 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
- .debug_info    0x000000000000f78e     0x162e CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
- .debug_info    0x0000000000010dbc     0x104b CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
- .debug_info    0x0000000000011e07     0x2078 CMakeFiles/f031.elf.dir/Src/main.c.obj
- .debug_info    0x0000000000013e7f     0x18e9 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
- .debug_info    0x0000000000015768      0xdef CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
- .debug_info    0x0000000000016557      0xa5c CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
- .debug_info    0x0000000000016fb3       0x84 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
+ .debug_info    0x000000000000ca14     0x1327 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_info    0x000000000000dd3b     0x1d78 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_info    0x000000000000fab3     0x1002 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+ .debug_info    0x0000000000010ab5     0x162e CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+ .debug_info    0x00000000000120e3     0x104b CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+ .debug_info    0x000000000001312e     0x2078 CMakeFiles/f031.elf.dir/Src/main.c.obj
+ .debug_info    0x00000000000151a6     0x18e9 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+ .debug_info    0x0000000000016a8f      0xdef CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+ .debug_info    0x000000000001787e      0xa5c CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+ .debug_info    0x00000000000182da       0x8a CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
 
-.debug_abbrev   0x0000000000000000     0x2f20
+.debug_abbrev   0x0000000000000000     0x319b
  .debug_abbrev  0x0000000000000000      0x266 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .debug_abbrev  0x0000000000000266      0x257 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
  .debug_abbrev  0x00000000000004bd      0x1bb CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
@@ -1930,17 +1925,18 @@ OUTPUT(f031.elf elf32-littlearm)
  .debug_abbrev  0x0000000000001523      0x281 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .debug_abbrev  0x00000000000017a4      0x223 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
  .debug_abbrev  0x00000000000019c7      0x26c CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_abbrev  0x0000000000001c33      0x294 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_abbrev  0x0000000000001ec7      0x327 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
- .debug_abbrev  0x00000000000021ee      0x2e3 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
- .debug_abbrev  0x00000000000024d1      0x230 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
- .debug_abbrev  0x0000000000002701      0x29c CMakeFiles/f031.elf.dir/Src/main.c.obj
- .debug_abbrev  0x000000000000299d      0x1f2 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
- .debug_abbrev  0x0000000000002b8f      0x1b5 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
- .debug_abbrev  0x0000000000002d44      0x1ca CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
- .debug_abbrev  0x0000000000002f0e       0x12 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
+ .debug_abbrev  0x0000000000001c33      0x27b CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_abbrev  0x0000000000001eae      0x294 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_abbrev  0x0000000000002142      0x327 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+ .debug_abbrev  0x0000000000002469      0x2e3 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+ .debug_abbrev  0x000000000000274c      0x230 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+ .debug_abbrev  0x000000000000297c      0x29c CMakeFiles/f031.elf.dir/Src/main.c.obj
+ .debug_abbrev  0x0000000000002c18      0x1f2 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+ .debug_abbrev  0x0000000000002e0a      0x1b5 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+ .debug_abbrev  0x0000000000002fbf      0x1ca CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+ .debug_abbrev  0x0000000000003189       0x12 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
 
-.debug_aranges  0x0000000000000000      0xd50
+.debug_aranges  0x0000000000000000      0xe28
  .debug_aranges
                 0x0000000000000000       0xb8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .debug_aranges
@@ -1966,25 +1962,27 @@ OUTPUT(f031.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000000740       0xb8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
  .debug_aranges
-                0x00000000000007f8      0x1d8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x00000000000007f8       0xd8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
  .debug_aranges
-                0x00000000000009d0      0x118 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                0x00000000000008d0      0x1d8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
  .debug_aranges
-                0x0000000000000ae8       0x90 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                0x0000000000000aa8      0x118 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
  .debug_aranges
-                0x0000000000000b78       0x58 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                0x0000000000000bc0       0x90 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
  .debug_aranges
-                0x0000000000000bd0       0x78 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                0x0000000000000c50       0x58 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
  .debug_aranges
-                0x0000000000000c48       0x60 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+                0x0000000000000ca8       0x78 CMakeFiles/f031.elf.dir/Src/main.c.obj
  .debug_aranges
-                0x0000000000000ca8       0x58 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                0x0000000000000d20       0x60 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
  .debug_aranges
-                0x0000000000000d00       0x28 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+                0x0000000000000d80       0x58 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
  .debug_aranges
-                0x0000000000000d28       0x28 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
+                0x0000000000000dd8       0x28 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+ .debug_aranges
+                0x0000000000000e00       0x28 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
 
-.debug_ranges   0x0000000000000000      0xc08
+.debug_ranges   0x0000000000000000      0xcd0
  .debug_ranges  0x0000000000000000       0xa8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .debug_ranges  0x00000000000000a8       0xe8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
  .debug_ranges  0x0000000000000190       0x10 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
@@ -1997,80 +1995,84 @@ OUTPUT(f031.elf elf32-littlearm)
  .debug_ranges  0x0000000000000600       0x70 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .debug_ranges  0x0000000000000670       0x20 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
  .debug_ranges  0x0000000000000690       0xa8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_ranges  0x0000000000000738      0x1c8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_ranges  0x0000000000000900      0x108 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
- .debug_ranges  0x0000000000000a08       0x80 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
- .debug_ranges  0x0000000000000a88       0x48 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
- .debug_ranges  0x0000000000000ad0       0x68 CMakeFiles/f031.elf.dir/Src/main.c.obj
- .debug_ranges  0x0000000000000b38       0x50 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
- .debug_ranges  0x0000000000000b88       0x48 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
- .debug_ranges  0x0000000000000bd0       0x18 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
- .debug_ranges  0x0000000000000be8       0x20 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
+ .debug_ranges  0x0000000000000738       0xc8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_ranges  0x0000000000000800      0x1c8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_ranges  0x00000000000009c8      0x108 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+ .debug_ranges  0x0000000000000ad0       0x80 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+ .debug_ranges  0x0000000000000b50       0x48 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+ .debug_ranges  0x0000000000000b98       0x68 CMakeFiles/f031.elf.dir/Src/main.c.obj
+ .debug_ranges  0x0000000000000c00       0x50 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+ .debug_ranges  0x0000000000000c50       0x48 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+ .debug_ranges  0x0000000000000c98       0x18 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+ .debug_ranges  0x0000000000000cb0       0x20 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
 
-.debug_line     0x0000000000000000     0x6de1
- .debug_line    0x0000000000000000      0x415 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_line    0x0000000000000415      0x82b CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
- .debug_line    0x0000000000000c40      0x2f8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
- .debug_line    0x0000000000000f38      0x426 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_line    0x000000000000135e      0x49b CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_line    0x00000000000017f9      0x3f3 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_line    0x0000000000001bec     0x1351 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .debug_line    0x0000000000002f3d      0x3d8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
- .debug_line    0x0000000000003315      0x36d CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
- .debug_line    0x0000000000003682      0x4f8 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_line    0x0000000000003b7a      0x35e CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_line    0x0000000000003ed8      0x5f1 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_line    0x00000000000044c9      0xd0a CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_line    0x00000000000051d3      0x64c CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
- .debug_line    0x000000000000581f      0x481 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
- .debug_line    0x0000000000005ca0      0x314 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
- .debug_line    0x0000000000005fb4      0x4c7 CMakeFiles/f031.elf.dir/Src/main.c.obj
- .debug_line    0x000000000000647b      0x39a CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
- .debug_line    0x0000000000006815      0x2fd CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
- .debug_line    0x0000000000006b12      0x237 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
- .debug_line    0x0000000000006d49       0x98 CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
+.debug_line     0x0000000000000000     0x7615
+ .debug_line    0x0000000000000000      0x421 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_line    0x0000000000000421      0x834 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+ .debug_line    0x0000000000000c55      0x301 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
+ .debug_line    0x0000000000000f56      0x42f CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_line    0x0000000000001385      0x4a4 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_line    0x0000000000001829      0x3fc CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_line    0x0000000000001c25     0x135a CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .debug_line    0x0000000000002f7f      0x3e1 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+ .debug_line    0x0000000000003360      0x376 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+ .debug_line    0x00000000000036d6      0x501 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_line    0x0000000000003bd7      0x367 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000000000003f3e      0x5fa CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+ .debug_line    0x0000000000004538      0x77a CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_line    0x0000000000004cb2      0xd13 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_line    0x00000000000059c5      0x64f CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+ .debug_line    0x0000000000006014      0x48d CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+ .debug_line    0x00000000000064a1      0x31d CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+ .debug_line    0x00000000000067be      0x4d6 CMakeFiles/f031.elf.dir/Src/main.c.obj
+ .debug_line    0x0000000000006c94      0x3a3 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+ .debug_line    0x0000000000007037      0x306 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+ .debug_line    0x000000000000733d      0x23d CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+ .debug_line    0x000000000000757a       0x9b CMakeFiles/f031.elf.dir/startup/startup_stm32f031x6.s.obj
 
-.debug_str      0x0000000000000000     0x3ed2
- .debug_str     0x0000000000000000      0x96a CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                                        0xa02 (size before relaxing)
- .debug_str     0x000000000000096a      0x667 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
-                                        0xd08 (size before relaxing)
- .debug_str     0x0000000000000fd1       0x8c CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
-                                        0xa0d (size before relaxing)
- .debug_str     0x000000000000105d      0x20d CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                                        0xa46 (size before relaxing)
- .debug_str     0x000000000000126a      0x267 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
-                                        0xa90 (size before relaxing)
- .debug_str     0x00000000000014d1      0x1cf CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                                        0x88d (size before relaxing)
- .debug_str     0x00000000000016a0      0xa3f CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                                       0x12c2 (size before relaxing)
- .debug_str     0x00000000000020df      0x108 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
-                                        0xc56 (size before relaxing)
- .debug_str     0x00000000000021e7      0x1b4 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
-                                        0x833 (size before relaxing)
- .debug_str     0x000000000000239b      0x2f2 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                                        0xa3f (size before relaxing)
- .debug_str     0x000000000000268d      0x13c CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
-                                        0x7f4 (size before relaxing)
- .debug_str     0x00000000000027c9      0x41f CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                                        0xb15 (size before relaxing)
- .debug_str     0x0000000000002be8      0x726 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
-                                        0xf9e (size before relaxing)
- .debug_str     0x000000000000330e      0x393 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
-                                        0x99c (size before relaxing)
- .debug_str     0x00000000000036a1      0x4ce CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
-                                       0x1002 (size before relaxing)
- .debug_str     0x0000000000003b6f       0xbf CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
-                                        0xc7b (size before relaxing)
- .debug_str     0x0000000000003c2e      0x156 CMakeFiles/f031.elf.dir/Src/main.c.obj
-                                       0x191a (size before relaxing)
- .debug_str     0x0000000000003d84       0x30 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
-                                       0x123c (size before relaxing)
- .debug_str     0x0000000000003db4       0xaf CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
-                                        0xa0c (size before relaxing)
- .debug_str     0x0000000000003e63       0x6f CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
-                                        0x6b3 (size before relaxing)
+.debug_str      0x0000000000000000     0x4319
+ .debug_str     0x0000000000000000      0x970 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                                        0xa08 (size before relaxing)
+ .debug_str     0x0000000000000970      0x66a CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                                        0xd0e (size before relaxing)
+ .debug_str     0x0000000000000fda       0x8f CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
+                                        0xa13 (size before relaxing)
+ .debug_str     0x0000000000001069      0x210 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                                        0xa4c (size before relaxing)
+ .debug_str     0x0000000000001279      0x26a CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+                                        0xa96 (size before relaxing)
+ .debug_str     0x00000000000014e3      0x1d2 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                                        0x893 (size before relaxing)
+ .debug_str     0x00000000000016b5      0xa42 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                                       0x12c8 (size before relaxing)
+ .debug_str     0x00000000000020f7      0x10b CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+                                        0xc5c (size before relaxing)
+ .debug_str     0x0000000000002202      0x1b7 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+                                        0x839 (size before relaxing)
+ .debug_str     0x00000000000023b9      0x2f5 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                                        0xa45 (size before relaxing)
+ .debug_str     0x00000000000026ae      0x13f CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+                                        0x7fa (size before relaxing)
+ .debug_str     0x00000000000027ed      0x41b CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                                        0xb1b (size before relaxing)
+ .debug_str     0x0000000000002c08      0x40f CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+                                        0xce3 (size before relaxing)
+ .debug_str     0x0000000000003017      0x729 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                                        0xfa4 (size before relaxing)
+ .debug_str     0x0000000000003740      0x396 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+                                        0x9a2 (size before relaxing)
+ .debug_str     0x0000000000003ad6      0x4d1 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+                                       0x1008 (size before relaxing)
+ .debug_str     0x0000000000003fa7       0xc2 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+                                        0xc81 (size before relaxing)
+ .debug_str     0x0000000000004069      0x159 CMakeFiles/f031.elf.dir/Src/main.c.obj
+                                       0x1920 (size before relaxing)
+ .debug_str     0x00000000000041c2       0x33 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+                                       0x1242 (size before relaxing)
+ .debug_str     0x00000000000041f5       0xb2 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+                                        0xa12 (size before relaxing)
+ .debug_str     0x00000000000042a7       0x72 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+                                        0x6b9 (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
  .comment       0x0000000000000000       0x7f CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
@@ -2086,6 +2088,7 @@ OUTPUT(f031.elf elf32-littlearm)
  .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+ .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
@@ -2095,7 +2098,7 @@ OUTPUT(f031.elf elf32-littlearm)
  .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
 
-.debug_frame    0x0000000000000000     0x3034
+.debug_frame    0x0000000000000000     0x3344
  .debug_frame   0x0000000000000000      0x248 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .debug_frame   0x0000000000000248      0x390 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
  .debug_frame   0x00000000000005d8       0x30 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
@@ -2108,26 +2111,27 @@ OUTPUT(f031.elf elf32-littlearm)
  .debug_frame   0x00000000000016fc      0x194 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .debug_frame   0x0000000000001890       0x70 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
  .debug_frame   0x0000000000001900      0x290 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_frame   0x0000000000001b90      0x710 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_frame   0x00000000000022a0      0x3ec CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
- .debug_frame   0x000000000000268c      0x1f4 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
- .debug_frame   0x0000000000002880      0x100 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
- .debug_frame   0x0000000000002980      0x184 CMakeFiles/f031.elf.dir/Src/main.c.obj
- .debug_frame   0x0000000000002b04      0x130 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
- .debug_frame   0x0000000000002c34       0xf0 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
- .debug_frame   0x0000000000002d24       0x4c CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
- .debug_frame   0x0000000000002d70       0x20 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
- .debug_frame   0x0000000000002d90       0x34 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_muldi3.o)
- .debug_frame   0x0000000000002dc4       0x30 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(bpabi.o)
- .debug_frame   0x0000000000002df4       0x3c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divsf3.o)
- .debug_frame   0x0000000000002e30       0x20 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(fixsfsi.o)
- .debug_frame   0x0000000000002e50       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatsisf.o)
- .debug_frame   0x0000000000002e7c       0x28 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatunsisf.o)
- .debug_frame   0x0000000000002ea4       0x3c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divdf3.o)
- .debug_frame   0x0000000000002ee0       0x3c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(muldf3.o)
- .debug_frame   0x0000000000002f1c       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
- .debug_frame   0x0000000000002f48       0x28 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
- .debug_frame   0x0000000000002f70       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(extendsfdf2.o)
- .debug_frame   0x0000000000002f9c       0x30 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(truncdfsf2.o)
- .debug_frame   0x0000000000002fcc       0x3c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_divdi3.o)
- .debug_frame   0x0000000000003008       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000001b90      0x310 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_frame   0x0000000000001ea0      0x710 CMakeFiles/f031.elf.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_frame   0x00000000000025b0      0x3ec CMakeFiles/f031.elf.dir/Src/RFM69.c.obj
+ .debug_frame   0x000000000000299c      0x1f4 CMakeFiles/f031.elf.dir/Src/bmp280.c.obj
+ .debug_frame   0x0000000000002b90      0x100 CMakeFiles/f031.elf.dir/Src/control_rf69.c.obj
+ .debug_frame   0x0000000000002c90      0x184 CMakeFiles/f031.elf.dir/Src/main.c.obj
+ .debug_frame   0x0000000000002e14      0x130 CMakeFiles/f031.elf.dir/Src/stm32f0xx_hal_msp.c.obj
+ .debug_frame   0x0000000000002f44       0xf0 CMakeFiles/f031.elf.dir/Src/stm32f0xx_it.c.obj
+ .debug_frame   0x0000000000003034       0x4c CMakeFiles/f031.elf.dir/Src/system_stm32f0xx.c.obj
+ .debug_frame   0x0000000000003080       0x20 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000000030a0       0x34 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_muldi3.o)
+ .debug_frame   0x00000000000030d4       0x30 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(bpabi.o)
+ .debug_frame   0x0000000000003104       0x3c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divsf3.o)
+ .debug_frame   0x0000000000003140       0x20 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(fixsfsi.o)
+ .debug_frame   0x0000000000003160       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatsisf.o)
+ .debug_frame   0x000000000000318c       0x28 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatunsisf.o)
+ .debug_frame   0x00000000000031b4       0x3c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(divdf3.o)
+ .debug_frame   0x00000000000031f0       0x3c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+ .debug_frame   0x000000000000322c       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
+ .debug_frame   0x0000000000003258       0x28 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+ .debug_frame   0x0000000000003280       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(extendsfdf2.o)
+ .debug_frame   0x00000000000032ac       0x30 /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(truncdfsf2.o)
+ .debug_frame   0x00000000000032dc       0x3c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000003318       0x2c /usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-init.o)

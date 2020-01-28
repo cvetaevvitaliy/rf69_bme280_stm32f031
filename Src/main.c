@@ -162,15 +162,13 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-	//DBGMCU->CR |= DBGMCU_CR_DBG_STANDBY;
+
   /* USER CODE END Init */
 
   /* Configure the system clock */
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-	//DBGMCU->CR |= ( DBGMCU_CR_DBG_STOP | DBGMCU_CR_DBG_STANDBY);
-  /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
@@ -200,6 +198,7 @@ int main(void)
 	HAL_ADCEx_Calibration_Start(&hadc);
 	HAL_ADC_Start_DMA(&hadc,&adc_raw,1);
 	time = HAL_GetTick ();
+	theData.status = HAL_RTCEx_BKUPRead (&hrtc,1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -216,6 +215,8 @@ int main(void)
     }
 
     if (counter > 10){
+      theData.status++;
+      HAL_RTCEx_BKUPWrite(&hrtc,1,(uint32_t)theData.status);
       counter = 0;
       pas=pressure*0.00750063755419211;
       theData.command=3;
@@ -238,62 +239,6 @@ int main(void)
      // DBGMCU->CR |= ( DBGMCU_CR_DBG_STOP | DBGMCU_CR_DBG_STANDBY);
       HAL_PWR_EnterSTANDBYMode();
     }
-
-
-
-
-
-
-
-
-		//bmp280_read_float(&bmp280,&temperature,&pressure,&humidity);
-/*		switch (time){
-			case 2:
-			{
-				pas=pressure*0.00750063755419211;
-				theData.command=3;
-				theData.data_1=temperature;
-				theData.data_2=pas;
-				theData.data_3=humidity;
-				theData.id=6;
-				bmp280_sleep(&bmp280.params);
-				//Vbat=value/4096.0*12.0;
-				break;
-			}
-			case 4:
-			{
-				pas=pressure*0.00750063755419211;
-				theData.command=3;
-				theData.data_1=temperature;
-				theData.data_2=pas;
-				theData.data_3=humidity;
-				theData.id=6;
-				theData.data_power=Vbat*100;
-				//bmp280_sleep(&bmp280.params);
-				
-
-				HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,GPIO_PIN_SET);
-				//Vbat=value/4096.0*12.0;
-				RFM69_send(100, (const void*)(&theData), sizeof(theData),false);
-				RFM69_sleep();
-				HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,GPIO_PIN_RESET);
-			//	HAL_IWDG_Refresh(&hiwdg);
-				PWR->CSR   |= PWR_CSR_EWUP1;
-				PWR->CSR   |= PWR_CSR_WUF;
-				PWR->CR    |= PWR_CR_CWUF;
-				PWR->CR = PWR_CR_PDDS | PWR_CR_CWUF;
-				DBGMCU->CR |= ( DBGMCU_CR_DBG_STOP | DBGMCU_CR_DBG_STANDBY);			
-				//HAL_PWR_EnterSTANDBYMode();
-				break;			
-			}
-				
-			case 6:
-			{
-				time=0;
-				break;
-			}
-
-		}		*/
 
   /* USER CODE END WHILE */
 

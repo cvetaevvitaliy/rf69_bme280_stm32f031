@@ -7,11 +7,11 @@ ASM_FLAGS = -g
 
 ASM_DEFINES = -DSTM32F031x6 -DUSE_HAL_DRIVER -D__packed="__attribute__((__packed__))" -D__weak="__attribute__((weak))"
 
-ASM_INCLUDES = -I/Volumes/SSD/stm32/f031/Inc -I/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc -I/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I/Volumes/SSD/stm32/f031/Drivers/CMSIS/Device/ST/STM32F0xx/Include -I/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include 
+ASM_INCLUDES = -I/Users/vitaliy/rg69_bme280/Inc -I/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc -I/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Device/ST/STM32F0xx/Include -I/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include 
 
 C_FLAGS = -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99 -g  
 
 C_DEFINES = -DSTM32F031x6 -DUSE_HAL_DRIVER -D__packed="__attribute__((__packed__))" -D__weak="__attribute__((weak))"
 
-C_INCLUDES = -I/Volumes/SSD/stm32/f031/Inc -I/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc -I/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I/Volumes/SSD/stm32/f031/Drivers/CMSIS/Device/ST/STM32F0xx/Include -I/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include 
+C_INCLUDES = -I/Users/vitaliy/rg69_bme280/Inc -I/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc -I/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Device/ST/STM32F0xx/Include -I/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include 
 

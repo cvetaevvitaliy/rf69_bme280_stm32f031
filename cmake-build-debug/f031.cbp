@@ -8,48 +8,48 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Volumes/SSD/stm32/f031/cmake-build-debug"/>
+				<Option working_dir="/Users/vitaliy/rg69_bme280/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Volumes/SSD/stm32/f031/cmake-build-debug"/>
+				<Option working_dir="/Users/vitaliy/rg69_bme280/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Volumes/SSD/stm32/f031/cmake-build-debug"/>
+				<Option working_dir="/Users/vitaliy/rg69_bme280/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UPLOAD">
-				<Option working_dir="/Volumes/SSD/stm32/f031/cmake-build-debug"/>
+				<Option working_dir="/Users/vitaliy/rg69_bme280/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 UPLOAD"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 UPLOAD"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="f031.elf">
-				<Option output="/Volumes/SSD/stm32/f031/cmake-build-debug/f031.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Volumes/SSD/stm32/f031/cmake-build-debug"/>
+				<Option output="/Users/vitaliy/rg69_bme280/cmake-build-debug/f031.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vitaliy/rg69_bme280/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -58,11 +58,11 @@
 					<Add option="-D__packed=__attribute__((__packed__))"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F031x6"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Inc"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Inc"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include"/>
 					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/include/c++/6.3.1"/>
 					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/include/c++/6.3.1/arm-none-eabi"/>
 					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/include/c++/6.3.1/backward"/>
@@ -71,15 +71,15 @@
 					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 f031.elf"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 f031.elf"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="f031.elf/fast">
-				<Option output="/Volumes/SSD/stm32/f031/cmake-build-debug/f031.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Volumes/SSD/stm32/f031/cmake-build-debug"/>
+				<Option output="/Users/vitaliy/rg69_bme280/cmake-build-debug/f031.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vitaliy/rg69_bme280/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -88,11 +88,11 @@
 					<Add option="-D__packed=__attribute__((__packed__))"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F031x6"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Inc"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
-					<Add directory="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Inc"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
+					<Add directory="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include"/>
 					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/include/c++/6.3.1"/>
 					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/include/c++/6.3.1/arm-none-eabi"/>
 					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/include/c++/6.3.1/backward"/>
@@ -101,251 +101,251 @@
 					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi-63/20170628/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 f031.elf/fast"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Volumes/SSD/stm32/f031/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 f031.elf/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vitaliy/rg69_bme280/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f031x6.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f031x6.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/arm_common_tables.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/arm_common_tables.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/arm_const_structs.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/arm_const_structs.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/arm_math.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/arm_math.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/cmsis_armcc_V6.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/cmsis_armcc_V6.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_cmFunc.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_cmFunc.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_cmInstr.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_cmInstr.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_cmSimd.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_cmSimd.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Inc/RFM69.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Inc/RFM69.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Inc/RFM69registers.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Inc/RFM69registers.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Inc/bmp280.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Inc/bmp280.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Inc/control_rf69.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Inc/control_rf69.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Inc/main.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Inc/main.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Inc/stm32f0xx_hal_conf.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Inc/stm32f0xx_hal_conf.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Inc/stm32f0xx_it.h">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Inc/stm32f0xx_it.h">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/STM32F031F6Px_FLASH.ld">
+		<Unit filename="/Users/vitaliy/rg69_bme280/STM32F031F6Px_FLASH.ld">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Src/RFM69.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Src/RFM69.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Src/bmp280.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Src/bmp280.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Src/control_rf69.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Src/control_rf69.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Src/main.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Src/main.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Src/stm32f0xx_hal_msp.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Src/stm32f0xx_hal_msp.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Src/stm32f0xx_it.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Src/stm32f0xx_it.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/Src/system_stm32f0xx.c">
+		<Unit filename="/Users/vitaliy/rg69_bme280/Src/system_stm32f0xx.c">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/startup/startup_stm32f031x6.s">
+		<Unit filename="/Users/vitaliy/rg69_bme280/startup/startup_stm32f031x6.s">
 			<Option target="f031.elf"/>
 		</Unit>
-		<Unit filename="/Volumes/SSD/stm32/f031/CMakeLists.txt">
+		<Unit filename="/Users/vitaliy/rg69_bme280/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

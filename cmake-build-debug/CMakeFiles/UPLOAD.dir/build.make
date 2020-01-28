@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/SSD/stm32/f031
+CMAKE_SOURCE_DIR = /Users/vitaliy/rg69_bme280
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/SSD/stm32/f031/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/vitaliy/rg69_bme280/cmake-build-debug
 
 # Utility rule file for UPLOAD.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Volumes/SSD/stm32/f031/cmake-build-debug
 include CMakeFiles/UPLOAD.dir/progress.make
 
 CMakeFiles/UPLOAD:
-	arm-none-eabi-gdb -iex target\ remote\ tcp:127.0.0.1:3333 -iex monitor\ program\ /Volumes/SSD/stm32/f031/cmake-build-debug/f031.elf -iex monitor\ reset\ init -iex disconnect -iex quit
+	arm-none-eabi-gdb -iex target\ remote\ tcp:127.0.0.1:3333 -iex monitor\ program\ /Users/vitaliy/rg69_bme280/cmake-build-debug/f031.elf -iex monitor\ reset\ init -iex disconnect -iex quit
 
 UPLOAD: CMakeFiles/UPLOAD
 UPLOAD: CMakeFiles/UPLOAD.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/UPLOAD.dir/clean:
 .PHONY : CMakeFiles/UPLOAD.dir/clean
 
 CMakeFiles/UPLOAD.dir/depend:
-	cd /Volumes/SSD/stm32/f031/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/SSD/stm32/f031 /Volumes/SSD/stm32/f031 /Volumes/SSD/stm32/f031/cmake-build-debug /Volumes/SSD/stm32/f031/cmake-build-debug /Volumes/SSD/stm32/f031/cmake-build-debug/CMakeFiles/UPLOAD.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vitaliy/rg69_bme280/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vitaliy/rg69_bme280 /Users/vitaliy/rg69_bme280 /Users/vitaliy/rg69_bme280/cmake-build-debug /Users/vitaliy/rg69_bme280/cmake-build-debug /Users/vitaliy/rg69_bme280/cmake-build-debug/CMakeFiles/UPLOAD.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UPLOAD.dir/depend
 

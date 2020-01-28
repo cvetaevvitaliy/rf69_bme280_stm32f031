@@ -290,13 +290,13 @@ stm32f0xx_hal_usart.h
 stm32f0xx_hal_wwdg.h
 ../Inc/stm32f0xx_hal_wwdg.h
 
-/Volumes/SSD/stm32/f031/Src/main.c
+/Users/vitaliy/rg69_bme280/Src/main.c
 main.h
-/Volumes/SSD/stm32/f031/Src/main.h
+/Users/vitaliy/rg69_bme280/Src/main.h
 stm32f0xx_hal.h
-/Volumes/SSD/stm32/f031/Src/stm32f0xx_hal.h
+/Users/vitaliy/rg69_bme280/Src/stm32f0xx_hal.h
 bmp280.h
-/Volumes/SSD/stm32/f031/Src/bmp280.h
+/Users/vitaliy/rg69_bme280/Src/bmp280.h
 RFM69.h
 -
 
